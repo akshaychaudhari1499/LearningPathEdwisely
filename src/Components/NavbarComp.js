@@ -5,9 +5,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../Assets/logo.svg';
 import { Link } from 'react-router-dom';
+import Banner from "../Assets/Banner.png";
 function NavbarComp() {
   return (
-    <Navbar bg="light" expand="lg" >
+    <Navbar bg="light" expand="lg" style={{
+      backgroundImage: `url(${Banner})`}}>
       <Container fluid>
       <Nav.Link as={Link} to="/"><img src={logo}></img></Nav.Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -17,9 +19,9 @@ function NavbarComp() {
             style={{ maxHeight: '100px' }}
             navbarScroll >
             
-            <Nav.Link as={Link} to="/courses">About</Nav.Link>
-            <Nav.Link as={Link} to="/profile">
-             Profile
+            <Nav.Link  as={Link} to="/courses"><h3 className='routes'>About</h3></Nav.Link>
+            <Nav.Link  as={Link} to="/profile">
+             <h3 > Profile</h3>
             </Nav.Link>
           </Nav>
           

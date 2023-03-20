@@ -1,8 +1,9 @@
 import React from 'react'
-
+import Text from './Text'
 function NoPage() {
   return (
-    <div>NoPage</div>
+    <div>NoPage<Text/></div>
+    
   )
 }
 

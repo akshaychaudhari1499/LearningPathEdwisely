@@ -1,5 +1,5 @@
 import React from 'react';
-
+import AboutText from './AboutText';
 
 const StudentProfile = () => {
    const student= { 'firstname':'Akshay',
@@ -10,7 +10,7 @@ const StudentProfile = () => {
     }
   return (
     <div className="profile">
-      <h2>Welcome Back {student.firstname} !</h2>
+      <AboutText/>
       <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_1pxqjqps.json"  background="transparent"  speed="1"  loop autoplay></lottie-player>
       <img src={student.profilePic} alt="Student Profile" className="profile-pic" />
       <div className="profile-info">        
