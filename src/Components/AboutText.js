@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 function AboutText() {
-  const [text, setText] = useState( `Welcome back Akshay`);
-  const textOptions = ['Want to check your progress ?', 'Thank you for choosing Edwisely','Cool ! You can check it in the About Section','Study Well , All the very Best'];
+  const [text, setText] = useState( `Welcome back Akshay !`);
+  const textOptions = ['Thank you for choosing Edwisely :)','Want to check your progress ?','Cool ! You can check it in the About Section ','Study Well , All the very Best :)'];
 
   useEffect(() => {
     const interval = setInterval(() => {

@@ -153,16 +153,26 @@ h3:hover{
   .container-course{
     display:grid;
   grid-template-columns: 1fr; 
-padding:2.3rem;
-
-
+padding:1rem;
+}
+.left-text1{
+  height: fit-content;
+  width:fit-content;
+  display: grid;
+  line-height: 1.9rem;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5rem;
+  transition: ease-in 0.7s;
 }
 #loader{
   height:fit-content;
   width:auto;
   display: grid;
   place-items: center;
-  margin-top:20rem;
+  margin-top:50%;
+  margin-right:50%;
 }
   .section-2{
     margin-top: 12rem;
