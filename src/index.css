@@ -50,12 +50,15 @@
   
 }
 .four-images img{
-  transition: ease-in 1s;
+  transition: ease-in 1s; 
+  box-shadow: 0 0 9px 3px rgba(78, 84, 200, 0.36);
+  border-radius: 9px 9px 0 9px;
 }
 
 .four-images:hover img{
-  box-shadow: inset 0.5rem 0.5rem 1px rgb(244, 217, 9);
   padding: 5rem;
+  box-shadow: 0 0 9px 3px rgba(78, 84, 200, 0.36);
+  border-radius: 9px 9px 0 9px;
   
 } 
 .left-text1{
@@ -83,21 +86,27 @@
   font-size: 16px;
   font-weight: 700;
   margin-left: 5rem;
+  margin-right: 5rem;
 }
 .box{
    
 width: 500px;
 padding: 2rem;
-box-shadow: inset 1rem 1rem 1px rgb(208, 199, 218);
+
 height:100px;
 font-size: 2rem;
 font-weight: 500;
 height: fit-content;
-transition: ease-in 1s;
+transition: ease-in 0.51s;
+background-color: rgb(243, 244, 245); 
+  border-radius: 9px 9px 0 9px;
+  
 }
 .box:hover{
   color: green;
-  box-shadow: inset 1rem 1rem 1px rgb(237, 87, 17);
+  background-color: transparent; 
+  box-shadow: 0 0 9px 3px rgba(78, 84, 200, 0.36);
+  border-radius: 9px 9px 0 9px;
 }
 hr {
  
@@ -132,10 +141,7 @@ hr {
   font-size: 1.2rem;
   line-height: 1.5;
 }
-.routes{
- margin-left: 900px;
- color:white;
-}
+
 h3{
   color:white;
   transition: ease-in 1s;
@@ -147,11 +153,57 @@ h3:hover{
   .container{
     display:grid;
   grid-template-columns: 1fr;  }
-  
+  .section-2{
+    margin-top: 12rem;
+    display: grid;
+   grid-template-columns: 1fr;
+    gap: 10rem;
+    align-items: center;
+  }
+  .four-images{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+  border: 1px solid black;
+    padding:5rem;
+    
+  }
+  .four-images:hover img{
+    box-shadow: inset 0.1rem 0.1rem 1px rgb(244, 217, 9);
+    padding: 1rem;
+    
+  } 
+  .box{
+   
+    width: fit-content;
+    padding: 2rem;
+    
+    height:fit-content;
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    height: fit-content;
+    transition: ease-in 0.51s;
+    background-color: aliceblue; 
+      border-radius: 9px 9px 0 9px;
+      
+    }
 }
 @media screen and (min-width: 760px) and (max-width: 960px) {
   .container{
   display:grid;
-  grid-template-columns: 1fr 1fr;  }
+  grid-template-columns: 1fr 1fr; 
+gap:1rem }
+.routes{
+  margin-left: 0px;
+ 
+ }
+
+
   
+}
+@media screen and (min-width: 960px) {
+  .routes{
+    margin-left: 900px;
+   
+   }
 }
