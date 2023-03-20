@@ -19,7 +19,7 @@ function NavbarComp() {
             style={{ maxHeight: '100px' }}
             navbarScroll >
             
-            <Nav.Link  as={Link} to="/courses"><h3 className='routes'>About</h3></Nav.Link>
+            <Nav.Link  as={Link} to="/courses"><h3 className='routes'>Courses</h3></Nav.Link>
             <Nav.Link  as={Link} to="/profile">
              <h3 > Profile</h3>
             </Nav.Link>

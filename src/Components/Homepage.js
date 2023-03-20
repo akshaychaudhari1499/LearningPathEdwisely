@@ -40,7 +40,7 @@ function Homepage() {
             <div className="getintouch">
              
             <Nav.Link  as={Link} to="/courses">
-                Get in Touch <img src={getintouch}></img>
+                Start Learning <img src={getintouch}></img>
               </Nav.Link>
             </div>
           </div>
