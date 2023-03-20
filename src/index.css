@@ -152,7 +152,12 @@ h3:hover{
 @media screen and (max-width: 760px) {
   .container{
     display:grid;
-  grid-template-columns: 1fr;  }
+  grid-template-columns: 1fr; 
+
+padding:2.5rem;
+
+
+}
   .section-2{
     margin-top: 12rem;
     display: grid;
