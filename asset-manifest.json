@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LearningPathEdwisely/static/css/main.b9bd90f5.css",
-    "main.js": "/LearningPathEdwisely/static/js/main.7b78f94c.js",
+    "main.js": "/LearningPathEdwisely/static/js/main.c3c9f30b.js",
     "static/js/787.15a7e14c.chunk.js": "/LearningPathEdwisely/static/js/787.15a7e14c.chunk.js",
     "static/media/Banner.png": "/LearningPathEdwisely/static/media/Banner.7662b6a029ada1776675.png",
     "static/media/monkey.svg": "/LearningPathEdwisely/static/media/monkey.69b47166be2bcda97f65145daba2d3e9.svg",
@@ -19,11 +19,11 @@
     "index.html": "/LearningPathEdwisely/index.html",
     "static/media/getin-touch-button.svg": "/LearningPathEdwisely/static/media/getin-touch-button.96a8c41bf2cab419b24e83ae69f76d0e.svg",
     "main.b9bd90f5.css.map": "/LearningPathEdwisely/static/css/main.b9bd90f5.css.map",
-    "main.7b78f94c.js.map": "/LearningPathEdwisely/static/js/main.7b78f94c.js.map",
+    "main.c3c9f30b.js.map": "/LearningPathEdwisely/static/js/main.c3c9f30b.js.map",
     "787.15a7e14c.chunk.js.map": "/LearningPathEdwisely/static/js/787.15a7e14c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9bd90f5.css",
-    "static/js/main.7b78f94c.js"
+    "static/js/main.c3c9f30b.js"
   ]
 }
