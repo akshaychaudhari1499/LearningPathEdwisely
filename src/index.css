@@ -1,7 +1,7 @@
 
-.container{
+.container-course{
   display: grid; 
- margin-top: 2rem;    
+ margin: 2rem  2rem;    
  gap: 2rem;
  grid-template-columns: repeat(4,1fr);
 }
@@ -150,13 +150,19 @@ h3:hover{
   color:rgb(214, 187, 187);
 }
 @media screen and (max-width: 760px) {
-  .container{
+  .container-course{
     display:grid;
   grid-template-columns: 1fr; 
+padding:2.3rem;
 
-padding:2.5rem;
 
-
+}
+#loader{
+  height:fit-content;
+  width:auto;
+  display: grid;
+  place-items: center;
+  margin-top:20rem;
 }
   .section-2{
     margin-top: 12rem;
@@ -194,7 +200,7 @@ padding:2.5rem;
     }
 }
 @media screen and (min-width: 760px) and (max-width: 960px) {
-  .container{
+  .container-course{
   display:grid;
   grid-template-columns: 1fr 1fr; 
 gap:1rem }

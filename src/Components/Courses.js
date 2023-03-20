@@ -56,7 +56,7 @@ function handleShow(id){
     <>
    
 
-    <div className="container" >
+    <div className="container-course" >
        <Example isOpen={isModalOpen} course={requestedCourse} close={closeModal}/>
       
   {courses.map((({ id ,name,img,steps,url}) =>
