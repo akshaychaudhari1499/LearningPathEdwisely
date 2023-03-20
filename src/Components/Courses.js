@@ -3,6 +3,7 @@ import { Card, Button , Accordion} from 'react-bootstrap';
 import { AiOutlineFieldTime } from "react-icons/ai";
 import Progress from './Progress';
 import { Link } from 'react-router-dom';
+import Banner from '../Assets/Banner.png';
 import Example from './Example';
 const Courses= ({ courses}) => {
   const[isModalOpen ,setIsModalOpen]=useState(false)
@@ -52,9 +53,13 @@ function handleShow(id){
 
 
   return (
-    
-    <div className="container">
+    <>
+    <div className="banner"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna ac placerat vestibulum lectus mauris ultrices eros in cursus. Enim nec dui nunc mattis enim ut tellus. Mauris rhoncus aenean vel elit scelerisque mauris. Facilisi cras fermentum odio eu feugiat. Id diam vel quam elementum pulvinar. Vivamus arcu felis bibendum ut tristique et egestas. Vitae elementum curabitur vitae nunc. Pharetra pharetra massa massa ultricies mi. Dapibus ultrices in iaculis nunc sed. Faucibus ornare suspendisse sed nisi lacus. At consectetur lorem donec massa sapien faucibus et molestie. Nec ultrices dui sapien eget mi proin sed libero enim. Neque aliquam vestibulum morbi blandit cursus. Et malesuada fames ac turpis egestas. Nullam vehicula ipsum a arcu. Sit amet massa vitae tortor condimentum lacinia.
+
+Vitae semper quis lectus nulla at volutpat diam ut. Mauris augue neque gravida in fermentum. Egestas erat imperdiet sed euismod nisi porta. Vitae sapien pellentesque habitant morbi tristique. Interdum velit euismod in pellentesque massa placerat duis. Cras sed felis eget velit. Arcu non odio euismod lacinia. Fames ac turpis egestas sed tempus. Scelerisque in dictum non consectetur. Magna fermentum iaculis eu non</div>
+    <div className="container" >
        <Example isOpen={isModalOpen} course={requestedCourse} close={closeModal}/>
+      
   {courses.map((({ id ,name,img,steps,url}) =>
       <Card  style={{ width: '18rem' }}>
       <Card.Img variant="top" src={img} />
@@ -86,7 +91,7 @@ function handleShow(id){
     </Card>
 
       
-    ))}</div>)}
+    ))}</div></>)}
   
   
 export default Courses
