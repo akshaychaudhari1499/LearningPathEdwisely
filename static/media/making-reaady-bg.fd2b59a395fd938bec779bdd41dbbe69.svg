@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800" height="1000" viewBox="0 0 1047 896">
+  <defs>
+    <linearGradient id="did-you-know-blue-patch-a" x1="59.321%" x2="97.213%" y1="28.757%" y2="84.017%">
+      <stop offset="0%" stop-color="#79C1FF"/>
+      <stop offset="100%" stop-color="#346CC1"/>
+    </linearGradient>
+    <path id="did-you-know-blue-patch-b" d="M1033,0 C931.430666,8.99332002 860.430666,14.6599867 784,93 C669.354001,210.51002 769.61729,263.477278 612.504576,353 C548.068287,389.715756 520.271745,389.715756 473.322335,394.137059 C388.949437,402.082594 295.985455,392.83263 194.14813,456 C35.6432922,554.316936 36.0825653,756.021905 10.3751891,802.506808 C9.18217107,804.664061 -9.24990745,825.857279 7.89201192,828.193882 C103.322843,841.201989 121.607285,879.754978 256.084575,836.596655 C415.27052,785.508486 615.27046,897.328953 762,897.328953 C859.819693,897.328953 954.819693,847.143659 1047,746.773071 C1049.87313,609.554139 1030.33333,329.833454 1033,0 Z"/>
+    <linearGradient id="did-you-know-blue-patch-c" x1="74.922%" x2="18.34%" y1="20.802%" y2="91.422%">
+      <stop offset="0%" stop-color="#7854CB"/>
+      <stop offset="100%" stop-color="#448EFF"/>
+    </linearGradient>
+    <linearGradient id="did-you-know-blue-patch-e" x1="13.37%" x2="74.072%" y1="-9.221%" y2="88.665%">
+      <stop offset="0%" stop-color="#DCFF73"/>
+      <stop offset="100%" stop-color="#8ECA6B"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -2)">
+    <path fill="url(#did-you-know-blue-patch-a)" fill-rule="nonzero" d="M1043,0 C941.430666,8.99332002 842.430666,32.6599867 766,111 C651.354001,228.51002 730.156049,266.447527 612.504576,351 C494.853103,435.552473 352.652967,355.683064 194.14813,454 C35.6432922,552.316936 36.0825653,754.021905 10.3751891,800.506808 C9.18217107,802.664061 -9.24990745,823.857279 7.89201192,826.193882 C103.322843,839.201989 121.607285,877.754978 256.084575,834.596655 C415.27052,783.508486 615.27046,895.328953 762,895.328953 C859.819693,895.328953 954.819693,845.143659 1047.00083,744.773071 C1042.89322,603.537121 1040.33333,329.833454 1043,0 Z" transform="translate(0 2)"/>
+    <mask id="did-you-know-blue-patch-d" fill="#fff">
+      <use xlink:href="#did-you-know-blue-patch-b"/>
+    </mask>
+    <circle cx="165.5" cy="1040.5" r="465.5" fill="url(#did-you-know-blue-patch-c)" fill-rule="nonzero" mask="url(#did-you-know-blue-patch-d)" opacity=".2"/>
+    <circle cx="250" cy="413" r="60" fill="url(#did-you-know-blue-patch-e)" fill-rule="nonzero"/>
+  </g>
+</svg>

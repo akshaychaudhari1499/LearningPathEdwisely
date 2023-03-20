@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/c4/static/css/main.002a99c7.css",
+    "main.js": "/c4/static/js/main.4e61470a.js",
+    "static/js/787.15a7e14c.chunk.js": "/c4/static/js/787.15a7e14c.chunk.js",
+    "static/media/Banner.png": "/c4/static/media/Banner.7662b6a029ada1776675.png",
+    "static/media/loader.gif": "/c4/static/media/loader.31c47ecebcdd63e036df.gif",
+    "static/media/target.svg": "/c4/static/media/target.b93b7ca4f09abf6dc8b08f5d3b0e6f8b.svg",
+    "static/media/progress.svg": "/c4/static/media/progress.8601d9bfccf5f7b2ae3a81099a5a2b9f.svg",
+    "static/media/mobile.svg": "/c4/static/media/mobile.ff6205f82995bdd9edf5175e0f493fad.svg",
+    "static/media/logo.svg": "/c4/static/media/logo.9c2c6f374fd7cf927f29449a49e37f81.svg",
+    "static/media/graduation.svg": "/c4/static/media/graduation.d53e7c53fce7a82ca2ccc24b50415c06.svg",
+    "static/media/making-reaady-bg.svg": "/c4/static/media/making-reaady-bg.fd2b59a395fd938bec779bdd41dbbe69.svg",
+    "index.html": "/c4/index.html",
+    "static/media/getin-touch-button.svg": "/c4/static/media/getin-touch-button.96a8c41bf2cab419b24e83ae69f76d0e.svg",
+    "main.002a99c7.css.map": "/c4/static/css/main.002a99c7.css.map",
+    "main.4e61470a.js.map": "/c4/static/js/main.4e61470a.js.map",
+    "787.15a7e14c.chunk.js.map": "/c4/static/js/787.15a7e14c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.002a99c7.css",
+    "static/js/main.4e61470a.js"
+  ]
+}
