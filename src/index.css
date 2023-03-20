@@ -184,7 +184,7 @@ padding:1rem;
   .four-images{
     display:grid;
     grid-template-columns: repeat(2,1fr);
-  border: 1px solid black;
+  
     padding:5rem;
     
   }
@@ -207,6 +207,15 @@ padding:1rem;
     background-color: aliceblue; 
       border-radius: 9px 9px 0 9px;
       
+    }
+    #monkey{
+    width:100%;
+    margin-top: 25rem;   
+    height: 100%;
+    }
+    .monkey{
+      padding:1rem;
+     
     }
 }
 @media screen and (min-width: 760px) and (max-width: 960px) {

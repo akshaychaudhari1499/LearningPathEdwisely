@@ -15,6 +15,8 @@ import blue from "../Assets/making-reaady-bg.svg";
 import { useState, useEffect } from "react";
 import Text from "./Text";
 import Loader from "./Loader";
+
+import monkey from '../Assets/monkey.svg';
 function Homepage() {
   return (
     <>
@@ -63,8 +65,11 @@ function Homepage() {
             <img src={target}></img>
             <img src={mobile}></img>
             <img src={graduation}></img>
-          </div>
+          </div>          
         </div>
+        <div className='monkey'> <img id='monkey' src={monkey}></img></div>
+       
+        
       </div>
     </>
   );

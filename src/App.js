@@ -10,6 +10,8 @@ import Homepage from './Components/Homepage';
 import Loader from './Components/Loader.js';
 import loader from './Assets/loader.gif';
 import {React ,useState} from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   const [isLoading, setLoading]=useState(true);

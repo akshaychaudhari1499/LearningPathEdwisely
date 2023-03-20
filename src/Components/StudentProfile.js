@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutText from './AboutText';
-
 const StudentProfile = () => {
    const student= { 'firstname':'Akshay',
      'age':'24', 
@@ -17,7 +16,9 @@ const StudentProfile = () => {
         <p>Age: {student.age}</p>
         <p>Major: {student.major}</p>
         <p>GPA: {student.GPA}</p>
+        
       </div>
+  
     </div>
   );
 };
