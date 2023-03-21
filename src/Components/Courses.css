@@ -1,0 +1,6 @@
+.container-course {
+  display: grid;
+  margin: 2rem 2rem;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,8 +1,7 @@
 import React from 'react'
-import Text from './Text'
 function NoPage() {
   return (
-    <div>NoPage<Text/></div>
+    <div>Sorry , But there is no page found here , plz try going somewhere else !</div>
     
   )
 }

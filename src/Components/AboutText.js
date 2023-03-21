@@ -1,8 +1,13 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useState, useEffect } from "react";
+import "./AboutText.css";
 function AboutText() {
-  const [text, setText] = useState( `Welcome back Akshay !`);
-  const textOptions = ['Thank you for choosing Edwisely :)','Want to check your progress ?','Cool ! You can check it in the About Section ','Study Well , All the very Best :)'];
+  const [text, setText] = useState(`Welcome back Akshay !`);
+  const textOptions = [
+    "Thank you for choosing Edwisely :)",
+    "Want to check your progress ?",
+    "Cool ! You can check it in the About Section ",
+    "Study Well , All the very Best :)",
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,10 +18,6 @@ function AboutText() {
     return () => clearInterval(interval);
   }, [text, textOptions]);
 
-  return (
-    <div className='welcome'>
-      {text}
-    </div>
-  );
+  return <div className="welcome">{text}</div>;
 }
 export default AboutText;

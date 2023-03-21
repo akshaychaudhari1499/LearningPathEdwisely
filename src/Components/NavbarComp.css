@@ -1,0 +1,13 @@
+h3 {
+  color: white;
+  transition: ease-in 1s;
+}
+h3:hover {
+  color: rgb(214, 187, 187);
+}
+
+@media screen and (min-width: 960px) {
+  .routes {
+    margin-left: 900px;
+  }
+}
